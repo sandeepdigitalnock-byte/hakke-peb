@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: auto; }
+body { @apply bg-white text-slate-800 font-sans antialiased; overflow-x: clip; }
